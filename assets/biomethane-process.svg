@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071523"/><stop offset="1" stop-color="#0b2639"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff6a21"/><stop offset="1" stop-color="#ff3b00"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="520" rx="30" fill="url(#bg)"/>
+  <g opacity=".16" stroke="#65b7e8" stroke-width="1.2"><path d="M82 420 C220 330 347 424 488 332 C649 226 772 343 1110 137"/><path d="M80 455 C253 369 402 461 550 357 C716 242 895 312 1122 188"/></g>
+  <g transform="translate(70 88)">
+    <rect x="0" y="118" width="142" height="104" rx="16" fill="#10283a" stroke="#25546c"/><path d="M20 180h102" stroke="#4f849a"/><path d="M42 118V78h58v40" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><circle cx="71" cy="64" r="28" fill="#183549" stroke="#ff5a1f" stroke-width="5"/><path d="M60 66c18-34 43-20 22 10-12 17-31 14-22-10z" fill="url(#orange)"/>
+    <text x="71" y="266" fill="#eaf4fb" font-size="24" font-family="Inter, Arial" text-anchor="middle">Feedstock</text><text x="71" y="296" fill="#9eb5c3" font-size="15" font-family="Inter, Arial" text-anchor="middle">bio-waste • slurry • silage</text>
+  </g>
+  <g stroke="#ff5a1f" stroke-width="5" stroke-linecap="round" opacity=".9"><path d="M245 230h88"/><path d="M318 213l17 17-17 17"/></g>
+  <g transform="translate(350 72)">
+    <rect x="18" y="60" width="178" height="180" rx="22" fill="#10283a" stroke="#25546c"/><path d="M51 60a56 56 0 0 1 112 0" fill="#10283a" stroke="#25546c"/><path d="M51 60h112" stroke="#65b7e8" opacity=".45"/><circle cx="107" cy="140" r="42" fill="#19394f" stroke="#ff5a1f" stroke-width="5"/><path d="M87 152c29-58 76-32 38 19-20 28-56 23-38-19z" fill="url(#orange)" filter="url(#glow)"/>
+    <text x="107" y="294" fill="#eaf4fb" font-size="24" font-family="Inter, Arial" text-anchor="middle">Digestion</text><text x="107" y="324" fill="#9eb5c3" font-size="15" font-family="Inter, Arial" text-anchor="middle">organic matter becomes biogas</text>
+  </g>
+  <g stroke="#ff5a1f" stroke-width="5" stroke-linecap="round" opacity=".9"><path d="M575 230h88"/><path d="M648 213l17 17-17 17"/></g>
+  <g transform="translate(690 88)">
+    <rect x="0" y="105" width="175" height="130" rx="20" fill="#10283a" stroke="#25546c"/><path d="M28 105V54h118v51" stroke="#65b7e8" opacity=".7" stroke-width="7" stroke-linejoin="round"/><path d="M37 170h101M37 200h101" stroke="#294d62" stroke-width="8" stroke-linecap="round"/><circle cx="87" cy="165" r="28" fill="#183549" stroke="#ff5a1f" stroke-width="5"/><path d="M71 162h32M87 146v38" stroke="#ff5a1f" stroke-width="5" stroke-linecap="round"/>
+    <text x="88" y="266" fill="#eaf4fb" font-size="24" font-family="Inter, Arial" text-anchor="middle">Upgrading</text><text x="88" y="296" fill="#9eb5c3" font-size="15" font-family="Inter, Arial" text-anchor="middle">CO₂ removal • gas cleaning</text>
+  </g>
+  <g stroke="#ff5a1f" stroke-width="5" stroke-linecap="round" opacity=".9"><path d="M895 230h88"/><path d="M968 213l17 17-17 17"/></g>
+  <g transform="translate(1010 80)">
+    <rect x="7" y="123" width="135" height="115" rx="18" fill="#10283a" stroke="#25546c"/><path d="M25 177h103M42 153v49M74 142v60M106 160v42" stroke="#65b7e8" stroke-width="7" stroke-linecap="round"/><circle cx="75" cy="113" r="36" fill="#183549" stroke="#ff5a1f" stroke-width="5"/><path d="M58 119l17 15 31-42" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="75" y="274" fill="#eaf4fb" font-size="24" font-family="Inter, Arial" text-anchor="middle">Grid Injection</text><text x="75" y="304" fill="#9eb5c3" font-size="15" font-family="Inter, Arial" text-anchor="middle">renewable gas for industry</text>
+  </g>
+  <path d="M382 405h435" stroke="#294d62" stroke-width="2"/><text x="600" y="450" fill="#eaf4fb" font-size="24" font-family="Inter, Arial" font-weight="700" text-anchor="middle">From local organic waste to renewable biomethane</text>
+</svg>
