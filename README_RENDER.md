@@ -1,30 +1,24 @@
-# ZK Nextgen Power website – deployment on Render
+# ZK Nextgen clean bilingual final
 
-## Local start
-1. Install Node.js.
-2. Open terminal in this folder.
-3. Run:
+This version uses two separate pages, so the English page cannot contain Czech text from JavaScript translation:
 
-```bash
-npm install
-npm start
-```
+- `/` or `/index.html` = Czech
+- `/en.html` or `/en` = English
 
-Open: http://localhost:3000
-
-## Render deployment
-1. Upload this folder to GitHub.
-2. In Render choose **New → Web Service**.
-3. Connect the repository.
-4. Settings:
-   - Environment: **Node**
+Important:
+1. Upload and overwrite all files from this package on GitHub.
+2. Do not upload `node_modules`.
+3. Delete/ignore old `Server.js` with capital S if it still exists in the repository.
+4. On Render use:
    - Build Command: `npm install`
    - Start Command: `npm start`
-5. Deploy.
+5. After deploy, open the site with Ctrl+F5 once to clear browser cache.
 
-The app uses `process.env.PORT`, so it works on Render without changing the port.
-
-## Notes
-- Contact form opens a prepared email draft to `kvapil.develop@gmail.com`.
-- No messages are stored on the server.
-- All images are inside `/assets`.
+Files changed:
+- index.html
+- en.html
+- styles.css
+- script.js
+- server.js
+- package.json
+- assets/*
