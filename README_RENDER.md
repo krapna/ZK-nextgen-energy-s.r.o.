@@ -31,3 +31,10 @@ Latest update:
 - Added Ondřej Pokorný as Sales representative.
 - Replaced Daniel Provazník photo with assets/DAN.webp.
 - Added broader development focus cards: biomethane in Africa and pyrolysis in Africa / Asia.
+
+
+Latest update:
+- Updated contact email to kvapil.develop@zknextgenenergy.org.
+- Replaced Jan Kvapil photo with the new suit photo.
+- Added Senegal biomethane / landfill gas focus visual using a cropped and softened version of the supplied concept image, without readable labels.
+- Added a pyrolysis visual loaded from Wikimedia Commons: "Pyrolysis machine at Vigyan Ashram.jpg" by Komal Sambhudas, CC BY-SA 4.0.

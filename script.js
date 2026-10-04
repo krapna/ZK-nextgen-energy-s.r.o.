@@ -115,7 +115,7 @@ form?.addEventListener('submit', event => {
     ? `Jméno: ${data.get('name')}\nE-mail: ${data.get('email')}\nTéma: ${topic}\n\nZpráva:\n${data.get('message')}`
     : `Name: ${data.get('name')}\nEmail: ${data.get('email')}\nTopic: ${topic}\n\nMessage:\n${data.get('message')}`;
 
-  window.location.href = `mailto:kvapil.develop@gmail.com?subject=${subject}&body=${encodeURIComponent(bodyText)}`;
+  window.location.href = `mailto:kvapil.develop@zknextgenenergy.org?subject=${subject}&body=${encodeURIComponent(bodyText)}`;
 });
 
 document.getElementById('year').textContent = new Date().getFullYear();
