@@ -1,7 +1,7 @@
 {
   "name": "zk-nextgen-power-website",
   "version": "1.1.0",
-  "description": "Professional bilingual website for ZK Nextgen Power biomethane projects.",
+  "description": "Professional bilingual website for ZK nextgen energy renewable gas and circular infrastructure portfolio.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
